@@ -15,10 +15,7 @@
       </div>
       <div class="right w-full md:w-1/2">
         <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-100 flex rounded-full"> 
-          <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-200 flex rounded-full"> 
-            <!-- <nuxt-img class="object-fill w-full rounded-full"
-              sizes="sm:100vw md:50vw lg:400px"
-              src="/avatar-1.jpeg" alt="Profile image" /> -->
+          <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-200 flex rounded-full">
             <img class="object-fill w-full rounded-full" width="lg:w-full" height="auto" alt="Profile image" src="~/assets/images/avatar-1.jpeg">
           </div>
         </div>
