@@ -2,7 +2,9 @@ import tailwindTypography from '@tailwindcss/typography'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/blog-nuxt/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Santosh Anand',
