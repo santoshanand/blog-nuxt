@@ -16,7 +16,10 @@
       <div class="right w-full md:w-1/2">
         <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-100 flex rounded-full"> 
           <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-200 flex rounded-full"> 
-            <img class="object-fill w-full rounded-full" src="~/assets/images/avatar-1.jpeg">
+            <nuxt-img class="object-fill w-full rounded-full"
+              sizes="sm:100vw md:50vw lg:400px"
+              src="/avatar-1.jpeg" alt="Profile image" />
+            <!-- <img class="object-fill w-full rounded-full" src="~/assets/images/avatar-1.jpeg"> -->
           </div>
         </div>
       </div>
@@ -28,7 +31,7 @@
           <h1 class="sm:text-3xl text-2xl uppercase font-medium title-font text-gray-900">What I'm Doing</h1>
         </div>
         <div class="flex flex-wrap -m-4">
-          <project-item>
+          <service-item>
             <template #icon>
               <h1>01</h1>
             </template>
@@ -38,8 +41,8 @@
             <template #description>
               Used various languages like <b>Go Lang, Node.js, .Net Core</b> etc. to develop application backend. 
             </template>
-          </project-item>
-          <project-item>
+          </service-item>
+          <service-item>
             <template #icon>
               <h1>02</h1>
             </template>
@@ -49,8 +52,8 @@
             <template #description>
               Developed multiple mobile applications using <b>Google Flutter, Android, PhoneGap, Ionic</b> etc. 
             </template>
-          </project-item>
-          <project-item>
+          </service-item>
+          <service-item>
             <template #icon>
               <h1>03</h1>
             </template>
@@ -60,8 +63,8 @@
             <template #description>
               Worked on multiple frontend technologies like <b>Angular, Svelte Kit, Vue.js, Nuxt.js</b> with bootstrap, tailwind css etc.
             </template>
-          </project-item>
-          <project-item>
+          </service-item>
+          <service-item>
             <template #icon>
               <h1>04</h1>
             </template>
@@ -71,8 +74,8 @@
             <template #description>
               Used multiple ORM's with different different technology; for example <b>.Net Core</b> with <b>Entity</b>,with <b>TypeORM</b> and <b>Go with GORM</b>.
             </template>
-          </project-item>
-          <project-item>
+          </service-item>
+          <service-item>
             <template #icon>
               <h1>05</h1>
             </template>
@@ -82,8 +85,8 @@
             <template #description>
               Improved many application including backend, fronend and mobile using verious techniques. Also upgraded lagacy application to trending technology. 
             </template>
-          </project-item>
-          <project-item>
+          </service-item>
+          <service-item>
             <template #icon>
               <h1>06</h1>
             </template>
@@ -91,9 +94,9 @@
               Solution Provider
             </template>
             <template #description>
-              Provided best solution to clients for their project requirement. Ability to choose frameworks based on project needs.
+              Provided best solution to clients for their service requirement. Ability to choose frameworks based on service needs.
             </template>
-          </project-item>
+          </service-item>
         </div>
       </div>
     </section>
@@ -103,10 +106,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import ProjectItem from '~/components/ProjectItem.vue'
+import serviceItem from '~/components/ServiceItem.vue'
 
 export default Vue.extend({
-  components: { ProjectItem },
+  components: { serviceItem },
   head() {
     return {
       title: "Santosh Anand",
