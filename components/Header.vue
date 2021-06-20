@@ -36,14 +36,25 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
+  watch:{
+    $route (to, from) {
+      this.currentPath = to.path
+    }
+  },
   data() {
-    return {open: false}
+    return {
+      open: false,
+      currentPath: '/'
+    }
   }
 })
 </script>
 
 <style lang="postcss">
   .m-btn {
-    @apply block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-sm md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200
+    @apply block px-4 py-2 mt-2 text-sm bg-transparent rounded-sm md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200
+  };
+  .nuxt-link-exact-active {
+    @apply text-black;
   }
 </style>
