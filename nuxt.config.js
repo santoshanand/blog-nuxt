@@ -5,6 +5,10 @@ export default {
   router: {
     base: '/blog-nuxt/'
   },
+  loading: {
+    color: 'black',
+    height: '2px'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Santosh Anand',
