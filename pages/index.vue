@@ -29,10 +29,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import serviceItem from '~/components/ServiceItem.vue'
 
 export default Vue.extend({
-  components: { serviceItem },
   head() {
     return {
       title: "Santosh Anand",

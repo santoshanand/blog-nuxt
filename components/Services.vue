@@ -57,7 +57,7 @@
               Application Optimization
             </template>
             <template #description>
-              Improved many application including backend, fronend and mobile using verious techniques. Also upgraded lagacy application to trending technology. 
+              Improved many application including backend, fronend and mobile using verious techniques. Also upgraded lagacy application to latest technology. 
             </template>
           </service-item>
           <service-item>
@@ -68,7 +68,7 @@
               Solution Provider
             </template>
             <template #description>
-              Provided best solution to clients for their service requirement. Ability to choose frameworks based on service needs.
+              Provided best solution to clients for their application requirement. Ability to choose frameworks based on application needs.
             </template>
           </service-item>
         </div>
