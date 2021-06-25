@@ -3,7 +3,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/blog-nuxt/'
+    base: '/santosh-blog/'
+  },
+  googleAnalytics: {
+    id: 'UA-84608330-1'
   },
   loading: {
     color: 'black',
@@ -39,6 +42,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    //https://google-analytics.nuxtjs.org/setup/
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
