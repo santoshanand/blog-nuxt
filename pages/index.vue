@@ -10,7 +10,7 @@
         </div> -->
         <SocialIcons class="pt-6"></SocialIcons>
         <div class="flex w-full pt-10 sm:pt-10 md:pt-20 pb-10">
-          <button class="cv-btn w-full sm:w-auto">Download CV</button>
+          <a rel="noopener" href="/santosh-resume.pdf" target="__blank" class="cv-btn w-full sm:w-auto">Download CV</a>
         </div>
       </div>
       <div class="right w-full md:w-1/2">
@@ -32,20 +32,8 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  head() {
-    return {
-      title: "Santosh Anand",
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Home page description'
-        },
-      ]
-    }
-  },
   async asyncData(ctx) {
-    const res = await ctx.$content('hello').fetch()
+    const res = await ctx.$content('blogs/frist-blog').fetch()
     return { page:res }
   }
 })
