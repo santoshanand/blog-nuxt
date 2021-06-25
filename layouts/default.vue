@@ -1,9 +1,10 @@
 <template>
   <div >
     <Header/>
-    <div class="container mx-auto pt-4 pr-6 pl-6 md:pr-10 md:pl-10">
+    <div class="container mx-auto pt-4 pr-6 pl-6 md:pr-10 md:pl-10 min-h-screen">
       <Nuxt />
     </div>
+    <Bottom></Bottom>
   </div>
 </template>
 

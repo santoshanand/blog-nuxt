@@ -23,6 +23,7 @@
     </div>
     
     <services></services>
+    <recent-blogs></recent-blogs>
     <!-- <nuxt-content :document="page" class="prose mx-auto" /> -->
   </div>
 </template>
@@ -52,7 +53,7 @@ export default Vue.extend({
 
 <style lang="postcss">
   .cv-btn {
-    @apply pt-3 pl-8 pb-3 pr-8 bg-gray-900 hover:shadow-2xl transition-all text-white rounded-sm
+    @apply pt-3 pl-8 pb-3 pr-8 bg-gray-900 hover:-translate-y-1 transform hover:shadow-2xl transition-all text-white rounded-sm
   }
   .title-text {
     @apply lg:text-5xl md:text-4xl text-3xl md:tracking-normal lg:tracking-wide font-bold text-center sm:text-left
