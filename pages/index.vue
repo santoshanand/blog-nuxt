@@ -23,7 +23,9 @@
     </div>
     
     <services></services>
+    <works></works>
     <recent-blogs></recent-blogs>
+
     <!-- <nuxt-content :document="page" class="prose mx-auto" /> -->
   </div>
 </template>
