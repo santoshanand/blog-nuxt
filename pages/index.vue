@@ -13,10 +13,10 @@
           <a rel="noopener" href="/santosh-blog/santosh-resume.pdf" target="__blank" class="cv-btn w-full sm:w-auto">Download CV</a>
         </div>
       </div>
-      <div class="right w-full md:w-1/2">
-        <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-100 flex rounded-full"> 
-          <div class="w-full p-4 sm:p-6 lg:p-8 bg-gray-200 flex rounded-full">
-            <img class="object-fill w-full rounded-full" width="300" height="300" alt="Profile image" src="~/assets/images/avatar-1.jpeg">
+      <div class="right md:w-1/2">
+        <div class="rounded-sm flex justify-end items-center "> 
+          <div class="p-4 rounded-sm sm:p-6 lg:p-8 bg-gray-200 flex ">
+            <img class="rounded-sm " width="360" height="360" alt="Profile image" src="~/assets/images/avatar-1.jpeg">
           </div>
         </div>
       </div>

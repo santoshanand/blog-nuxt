@@ -1,6 +1,7 @@
 <template>
   <!-- <nuxt-content :document="page" class="prose mx-auto" /> -->
   <section>
+    
   </section>
   
 </template>
