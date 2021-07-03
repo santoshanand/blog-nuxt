@@ -14,7 +14,7 @@
       <NuxtLink to="/blogs" class="mr-5 cursor-pointer hover:text-gray-900">Blogs</NuxtLink>
       <NuxtLink to="/projects" class="mr-5 cursor-pointer hover:text-gray-900">Projects</NuxtLink>
       <!-- <NuxtLink to="/stocks" class="mr-5 cursor-pointer hover:text-gray-900">Stocks</NuxtLink> -->
-      <NuxtLink to="/resume" class="mr-5 cursor-pointer hover:text-gray-900">Resume</NuxtLink>
+      <!-- <NuxtLink to="/resume" class="mr-5 cursor-pointer hover:text-gray-900">Resume</NuxtLink> -->
       <NuxtLink to="/about" class="mr-5 cursor-pointer hover:text-gray-900">About Me</NuxtLink>
     </nav>
     <nav class="flex sm:hidden" @click="open = false">
@@ -24,7 +24,7 @@
           <NuxtLink to="/blogs" class="m-btn">Blogs</NuxtLink>
           <Nuxt-Link to="/projects" class="m-btn">Projects</Nuxt-Link>
           <!-- <Nuxt-Link to="/stocks" class="m-btn">Stocks</Nuxt-Link> -->
-          <Nuxt-Link to="/resume" class="m-btn">Resume</Nuxt-Link>
+          <!-- <Nuxt-Link to="/resume" class="m-btn">Resume</Nuxt-Link> -->
           <Nuxt-Link to="/about" class="m-btn">About</Nuxt-Link>
         </div>
       </div>
