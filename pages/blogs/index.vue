@@ -14,21 +14,11 @@
         :title="post.title"
       />
     </section>
-    <!-- <section id="next" v-if="nextPage">
-      <nuxt-link to="page/2"> Next page </nuxt-link>
-    </section> -->
     <hr class="mt-10 mb-10" />
     <div class="flex justify-between pb-10 mx-auto">
       <span></span>
       <nuxt-link class="btn" to="page/2"> Next page </nuxt-link>
     </div>
-    <!-- <NuxtLink v-if="prev" :to="{name: 'blog-slug', params: {slug: prev.slug}}">
-      {{ prev.title }}
-    </NuxtLink>
-
-    <NuxtLink v-if="next" :to="{name: 'blog-slug', params: {slug: next.slug}}">
-      {{ next.title }}
-    </NuxtLink> -->
   </div>
 </template>
 <script lang="ts">
