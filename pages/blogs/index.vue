@@ -15,7 +15,7 @@
       />
     </section>
     <hr class="mt-10 mb-10" />
-    <div class="flex justify-between pb-10 mx-auto">
+    <div class="flex justify-between pb-10 mx-auto" v-if="nextPage">
       <span></span>
       <nuxt-link class="btn" to="page/2"> Next page </nuxt-link>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="text-center mb-10 md:mb-20" v-if="article.thumbnail">
-      <img class="w-full" :src="`/santosh-blog/${article.thumbnail}`" :alt="article.title" />
+      <img class="w-full" :src="article.thumbnail" :alt="article.title" />
     </div>
     <div class="text-center flex flex-col justify-center items-center">
       <h1 class="title">{{ article.title }}</h1>

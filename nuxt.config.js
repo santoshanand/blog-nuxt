@@ -2,9 +2,6 @@ import tailwindTypography from '@tailwindcss/typography'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base: '/santosh-blog/'
-  },
   googleAnalytics: {
     id: 'UA-84608330-1'
   },
@@ -21,7 +18,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/santosh-blog/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 

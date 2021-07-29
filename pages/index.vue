@@ -12,7 +12,7 @@
         </div> -->
         <SocialIcons class="pt-6"></SocialIcons>
         <div class="flex w-full pt-10 sm:pt-10 md:pt-20 pb-10">
-          <a rel="noopener" href="/santosh-blog/santosh-resume.pdf" target="__blank" class="btn text-center w-full sm:w-auto">Download CV</a>
+          <a rel="noopener" href="/santosh-resume.pdf" target="__blank" class="btn text-center w-full sm:w-auto">Download CV</a>
         </div>
       </div>
       <div class="right md:w-1/2">

@@ -50,7 +50,6 @@ export default Vue.extend({
     const nextPage = tenPosts.length === config.pageSize
     const posts = nextPage ? tenPosts.slice(0, -1) : tenPosts
 
-    console.log(nextPage, posts, pageNo)
     return {nextPage, posts, pageNo}
   },
 })

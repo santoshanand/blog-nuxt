@@ -2,7 +2,7 @@
   <div class="w-full md:w-1/3 px-4 pb-12">
     <div class="h-full bg-white rounded overflow-hidden shadow-sm hover:shadow-md relative smooth">
       <nuxt-link :to="`/blogs/${slug}`" class="no-underline hover:no-underline">
-        <img v-if="image" :src="`/santosh-blog/${image}`" height="192" class="h-48 w-full rounded-t" />
+        <img v-if="image" :src="image" height="192" class="h-48 w-full rounded-t" />
         <div class="p-6 h-auto md:h-48">
           <p class="text-gray-600 text-xs md:text-sm pb-2"></p>
           <div class="font-bold text-xl text-gray-900 pb-3">{{ title }}</div>
