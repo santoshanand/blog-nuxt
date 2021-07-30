@@ -11,7 +11,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Santosh Anand',
+    title: 'Santosh Blog',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -54,11 +54,11 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Santosh Anand',
+      name: 'Santosh Blog',
       lang: 'en'
     },
     meta: {
-      name: "Santosh Anand",
+      name: "Santosh Blog",
     },
     icon: {
       fileName: "icon.png",
