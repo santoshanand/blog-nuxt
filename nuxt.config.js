@@ -55,7 +55,8 @@ export default {
   pwa: {
     manifest: {
       name: 'Santosh Blog',
-      lang: 'en'
+      lang: 'en',
+      short_name: "Santosh Blog"
     },
     meta: {
       name: "Santosh Blog",
