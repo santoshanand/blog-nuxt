@@ -71,7 +71,7 @@ export default Vue.extend({
   @appy flex title-font font-medium items-center text-gray-900 md:mb-0;
 }
 .mobile-link {
-  @apply absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg;
+  @apply absolute z-50 right-0 w-full mt-2 origin-top-right rounded-md shadow-lg;
 }
 .mobile-div {
   @apply px-2 pb-4 bg-white rounded-md shadow;

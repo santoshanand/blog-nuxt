@@ -1,6 +1,6 @@
 ---
 title: What is blockchain?
-date: 2018-08-12 11:35:40
+description: "As name suggest it is a block of chain"
 tags: 
   - blockchain
   - crypto

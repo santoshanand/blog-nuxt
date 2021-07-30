@@ -1,4 +1,4 @@
-export function AboutMeta () {
+export function AboutMeta() {
   return {
     title: "About | Santosh Anand",
     meta: [
@@ -11,7 +11,7 @@ export function AboutMeta () {
   }
 }
 
-export function StocksMeta () {
+export function StocksMeta() {
   return {
     title: "Stocks | Santosh Anand",
     meta: [
@@ -24,20 +24,32 @@ export function StocksMeta () {
   }
 }
 
-export function BlogsMeta () {
+export function BlogsMeta() {
   return {
     title: "Blogs | Santosh Anand",
     meta: [
       {
-        hid: 'about',
-        name: 'about',
-        content: 'This page content blogs information of Santosh Anand'
+        hid: 'blogs',
+        name: 'blogs',
+        content: 'This page has all the blog listed on this site'
+      }
+    ]
+  }
+}
+export function BlogSingleMeta(title: string = "Blog Item", description: string) {
+  return {
+    title: title + " | Santosh Anand",
+    meta: [
+      {
+        hid: 'blogs',
+        name: 'blogs',
+        content: description ? description : 'This page has all the blog listed on this site',
       }
     ]
   }
 }
 
-export function ProjectsMeta () {
+export function ProjectsMeta() {
   return {
     title: "Projects | Santosh Anand",
     meta: [
@@ -50,7 +62,7 @@ export function ProjectsMeta () {
   }
 }
 
-export function ResumeMeta () {
+export function ResumeMeta() {
   return {
     title: "Resume | Santosh Anand",
     meta: [

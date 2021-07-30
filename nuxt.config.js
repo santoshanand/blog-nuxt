@@ -15,7 +15,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Santoshanand blog help developer to learn new technologies like Golang, Angular, gRPC, AWS, React.js, Vue.js etc' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -54,8 +54,11 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Santosh Blog',
+      name: 'Santosh Anand',
       lang: 'en'
+    },
+    meta: {
+      name: "Santosh Anand",
     },
     icon: {
       fileName: "icon.png",

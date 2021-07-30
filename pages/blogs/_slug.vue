@@ -23,13 +23,20 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
+import {BlogSingleMeta} from '~/utils/meta-tag'
+let dataArticle = {title: '', description: ''}
 export default Vue.extend({
+  head() {
+    return BlogSingleMeta(dataArticle.title, dataArticle.description)
+  },
   filters: {
     formatDate: (dateStr: string) => new Date(dateStr).toDateString(),
   },
   async asyncData({$content, params}) {
-    const article = await $content('blogs', params.slug).fetch()
+    const article = (await $content('blogs', params.slug).fetch()) as any
     const [prev = null, next = null] = (await $content('blogs').only(['title', 'slug']).sortBy('createdAt', 'asc').surround(params.slug).fetch()) as Array<any>
+    dataArticle.title = article['title']
+    dataArticle.description = article['description']
     return {
       article,
       prev,

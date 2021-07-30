@@ -1,6 +1,7 @@
 ---
 title: Welcome To Programming
-date: 2016-09-22 16:54:46
+description: 'This is introductory blog from Santosh Anand'
+
 tags:
 thumbnail: /gallery/welcome.jpg
 ---
