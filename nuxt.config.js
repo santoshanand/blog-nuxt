@@ -54,7 +54,12 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Santosh Blog',
       lang: 'en'
+    },
+    icon: {
+      fileName: "icon.png",
+      source: '~/static/icon.png',
     }
   },
 

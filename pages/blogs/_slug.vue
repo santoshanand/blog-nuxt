@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="text-center mb-10 md:mb-20" v-if="article.thumbnail">
-      <img class="w-full" :src="article.thumbnail" :alt="article.title" />
+      <img v-if="article.thumbnail" class="w-full" :src="article.thumbnail" :alt="article.title" />
     </div>
     <div class="text-center flex flex-col justify-center items-center">
       <h1 class="title">{{ article.title }}</h1>
@@ -29,8 +29,6 @@ export default Vue.extend({
   },
   async asyncData({$content, params}) {
     const article = await $content('blogs', params.slug).fetch()
-
-    // const [prev, next] = await ($content('blogs').only(['title', 'slug']).sortBy('createdAt', 'asc').surround(params.slug).fetch()) as as Array<IContentDocument>
     const [prev = null, next = null] = (await $content('blogs').only(['title', 'slug']).sortBy('createdAt', 'asc').surround(params.slug).fetch()) as Array<any>
     return {
       article,
